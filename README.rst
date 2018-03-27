@@ -26,7 +26,7 @@ Generate greetings strings
 Features
 --------
 
-* TODO
+* Create Hello message based on a *name*. Defaults to *you*.
 
 Credits
 -------
