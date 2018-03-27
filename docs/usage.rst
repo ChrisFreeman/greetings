@@ -4,4 +4,6 @@ Usage
 
 To use Greetings in a project::
 
-    import greetings
+    >>> from greetings.greetings import simple_hello
+    >>> simple_hello("Danny")
+    'Hello Danny!'
