@@ -21,10 +21,13 @@ def response():
     # return requests.get('https://github.com/audreyr/cookiecutter-pypackage')
 
 
-def test_content(response):
-    """Sample pytest test function with the pytest fixture as an argument."""
-    # from bs4 import BeautifulSoup
-    # assert 'GitHub' in BeautifulSoup(response.content).title.string
+def test_simple_hello_default():
+    """Test valid string from default data."""
+    assert 'Hello you!' in greetings.simple_hello()
+
+def test_simple_hello_argument():
+    """Test valid string from default data."""
+    assert 'Hello Danny!' in greetings.simple_hello('Danny')
 
 
 def test_command_line_interface():
